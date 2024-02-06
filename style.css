@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100;
+    min-height: 100vh;
+    background: linear-gradient(-45deg,rgb(127,116,208), rgb(193,191,250));
+    display: grid;
+    place-items: center;
+}
+.box{
+    height: 600px;
+    width: 350px;
+    background: linear-gradient(-45deg,rgb(191,190,240), rgb(123,120,241));
+    position: relative;
+     overflow: hidden; 
+     border-radius: 10px;
+     box-shadow: 0 0 10px 2px rgb(255, 255, 255,0.4);
+    }
+    .graphic1{
+        height: 180px;
+        width: 200px;
+        background: rgb(109, 99, 190);
+        position: absolute;
+        top: -120px;
+        right: 20px;
+        transform: rotate(-45deg);
+        border-radius: 20px;
+        box-shadow: 0 0 10px 2px rgb(255, 255, 255,0.4);
+    }
+    .graphic2{
+        height: 600px;
+        width: 180px;
+        background: rgb(107, 115, 187);
+        position: absolute;
+        top: -100px;
+        right: -17px;
+        transform: rotate(45deg);
+        border-radius: 30px;
+        box-shadow: 0 0 10px 2px rgb(255, 255, 255,0.4);
+    }
+    .graphic3{
+        height: 300px;
+        width: 250px;
+        background: rgb(107, 100, 172);
+        position: absolute;
+        right: -30px;
+        bottom: -155px;
+        transform: rotate(45deg);
+        border-radius: 30px;
+        box-shadow: 0 0 10px 2px rgb(255, 255, 255,0.4);
+    }
+    .graphic4{
+        height: 600px;
+        width: 500px;
+        position: absolute;
+        background: #fff;
+        transform: rotate(135deg);
+        left: -300px;
+        top: -100px;
+        border-radius: 35px 0 0 0;
+        box-shadow: 0 0 10px 2px rgb(255, 255, 255,0.4);
+    }
+    form{
+    position: absolute;
+    width: 220px;
+    top: 150px;
+    left: 30px;
+}
+form span{
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
+form span input{
+    border: none;
+    margin-left: 10px;
+    height: 1.5rem;
+}
+form span input:focus{
+    outline: none;
+}
+form span ion-icon{
+    font-size: 18px;
+    color: rgb(91, 84, 159);
+}
+.box .social{
+    position: absolute;
+    bottom: 90px;
+    right: 30px;
+    color: rgb(235, 237, 237);
+    font-family: 'nunito',sans-serif;
+}
+.social ion-icon{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.box button{
+    position: absolute;
+    border: 2px solid grey;
+    background: #fff;
+    top: 60%;
+    left: 10%;
+    width: 230px;
+    color: rgb(109, 99, 190);
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    padding: 6px;
+    box-shadow: -2px 5px 10px 2px rgb(180, 180, 245);
+}
+button ion-icon{
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 20px;
+    width: 20%;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
